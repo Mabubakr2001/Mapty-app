@@ -88,13 +88,10 @@ class App {
   #markers = [];
 
   constructor() {
-    // Get user's possition
     this._getPosition();
 
-    // Get data from locale storage
     this._getLocalStorage();
 
-    // Attach event handlers
     inputType.addEventListener("change", this._toggleWorkoutType);
     form.addEventListener("submit", this._createNewWorkout.bind(this));
     containerWorkouts.addEventListener(
@@ -242,7 +239,6 @@ class App {
 
     this.#workouts.push(workout);
 
-    // Show manipulation btns
     if (this.#workouts.length > 1)
       setTimeout(() => manipulateWorkouts.classList.remove("hidden"), 2000);
 
@@ -252,7 +248,6 @@ class App {
 
     this._renderWorkoutOnList(workout);
 
-    // Set local storage to all workouts
     this._setLocalStorage();
   }
 
@@ -383,15 +378,12 @@ class App {
   }
 
   _setLocalStorage() {
-    // Set workouts array in local storage as string
     localStorage.setItem("workouts", JSON.stringify(this.#workouts));
   }
 
   _getLocalStorage() {
-    // Get workouts array fromt local storage and convert it back to object
     const data = JSON.parse(localStorage.getItem("workouts"));
 
-    // Check if there is any data
     if (!data) return;
 
     const newRecreatedWorkoutsArr = [];
@@ -419,13 +411,10 @@ class App {
       newRecreatedWorkoutsArr.push(recreatedWorkout);
     });
 
-    // Put the data back in the workouts array
     this.#workouts = newRecreatedWorkoutsArr;
 
-    // Render each work out back on the list
     this.#workouts.forEach((workout) => this._renderWorkoutOnList(workout));
 
-    // Show manipulation options
     if (this.#workouts.length > 1)
       manipulateWorkouts.classList.remove("hidden");
   }
