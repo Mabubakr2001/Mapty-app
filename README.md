@@ -8,7 +8,7 @@
 
 #### 1- Delete a workout.
 #### 2- Delete all workouts.
-#### 3- Ddit a workout.
+#### 3- Edit a workout.
 #### 4- Rebuild the objects that come from local storage.
 #### 5- Add more realistic error and confirmation messages.
 #### 6- Sort workouts by a certain field, but I found out that is not useful so I deleted it
