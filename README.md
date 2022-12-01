@@ -10,5 +10,5 @@
 #### 2- Delete all workouts.
 #### 3- Edit a workout.
 #### 4- Rebuild the objects that come from local storage.
-#### 5- Add more realistic error and confirmation messages.
+#### 5- Add more realistic error and confirmation messages instead of just showing an alert.
 #### 6- Sort workouts by a certain field, but I found out that is not useful so I deleted it
