@@ -4,4 +4,4 @@
 
 ## I'm not done yet with this app I will improve it and add more features
 
-### By using a leaflet third-party library the map was rendered, and this project depends entirely on OOP. I hoped that you can read the code very well, so I'm done some refactoring to make my code looks a bit cleaner.
+### By using a leaflet third-party library the map was rendered, and this project depends entirely on OOP. I hoped that you can read the code very well, so I've done some refactoring to make my code looks a bit cleaner.
