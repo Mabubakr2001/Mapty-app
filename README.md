@@ -6,9 +6,9 @@
 
 ### Actually what makes me want to upload this project and any project that's not mine, is that after understanding the code and following the tutorials, I used to implement the whole code from scratch again by myself, and in this one, Jones told us to add new features ourselves so I added some features like:
 
-#### 1- delete a workout.
-#### 2- delete all workouts.
-#### 3- edit a workout.
+#### 1- Delete a workout.
+#### 2- Delete all workouts.
+#### 3- Ddit a workout.
 #### 4- Rebuild the objects that come from local storage.
 #### 5- Add more realistic error and confirmation messages.
-#### 6- sort workouts by a certain field, but I found out that is not useful so I deleted it
+#### 6- Sort workouts by a certain field, but I found out that is not useful so I deleted it
